@@ -1,0 +1,7 @@
+.account-nav{display:flex;align-items:center;gap:12px;min-height:32px}
+.account-nav .button{padding:8px 14px}
+.editor-form{max-width:640px;background:var(--color-card);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:28px;box-shadow:var(--shadow-sm);display:grid;gap:20px}
+.editor-form .form-field{display:flex;flex-direction:column;align-items:stretch;gap:8px}
+.editor-form input,.editor-form textarea{width:100%;font:inherit;border-radius:8px;border:1px solid var(--color-border);padding:12px;resize:vertical}
+.auth-screen{min-height:65vh;display:grid;place-items:center;padding:32px}
+@media(max-width:640px){.site-header .container{flex-wrap:wrap}.account-nav{width:100%}.editor-form{padding:18px}}

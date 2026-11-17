@@ -1,0 +1,5 @@
+@use '../base/mixins' as m;
+.hero{background:radial-gradient(circle at 80% 20%,#238b7d 0%,transparent 40%),linear-gradient(115deg,#0b3937 0%,#115e59 60%,#0f766e 100%);color:#fff;padding:76px 0 84px;
+ .eyebrow{color:#a7f3d0}h1{max-width:770px;font-size:clamp(2.4rem,5vw,4.4rem);line-height:1.1;margin:14px 0 20px;font-weight:820;em{color:#b0f1d9;font-style:normal}}
+ p{max-width:630px;font-size:1.1rem;opacity:.92;margin:0 0 28px}
+ @include m.mobile{padding:48px 0 56px}}

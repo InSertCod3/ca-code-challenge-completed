@@ -1,0 +1,26 @@
+{
+  "name": "brand-review-nextjs",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "scss": "sass scss/main.scss /tmp/brand-review.css --no-source-map"
+  },
+  "dependencies": {
+    "next": "16.0.10",
+    "@clerk/nextjs": "7.9.22",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "zod": "4.1.12",
+    "sass": "1.93.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,9 @@
+@use '../base/mixins' as m;
+.container{max-width:var(--max-width);margin:0 auto;padding:0 24px}
+.site-header{background:#fff;border-bottom:1px solid var(--color-border);padding:18px 0;
+  .container{display:flex;align-items:center;justify-content:space-between;gap:24px}
+  @include m.mobile{.container{flex-direction:column;align-items:flex-start;gap:12px}}
+}
+.site-title{font-size:1.25rem;font-weight:800;margin:0;letter-spacing:-.03em;
+  a{color:var(--color-text);&:hover{text-decoration:none}}&__dot{color:var(--color-primary)}}
+.site-nav{display:flex;gap:24px;font-size:.94rem;a{color:var(--color-text);font-weight:600;&:hover{color:var(--color-primary)}}}
